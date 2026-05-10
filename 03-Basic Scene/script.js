@@ -28,3 +28,4 @@ const renderer = new THREE.WebGLRenderer({
 })
 
 renderer.setSize(size.width, size.height)
+renderer.render(scene, camera)
